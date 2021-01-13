@@ -9,7 +9,7 @@ import "./styles";
 // Component for displaying content+image on a card
 const CustomCard = ({ title, href, img }) => {
   const [photo, setPhoto] = useState(img); // Card photo, defaults as prop
-  const onError = () => setPhoto("../../../public/placeholder.jpg"); // Return placeholder if photo is invalid
+  const onError = () => setPhoto("/public/placeholder.jpg"); // Return placeholder if photo is invalid
   return (
     <div className="card-container">
       <Card className="bordered-3 themed-bg">
