@@ -1,5 +1,5 @@
 # Myndaleit
-[Hlekkur](https://main.d3vs3norly6hqz.amplifyapp.com/).
+[Live demo](https://main.d3vs3norly6hqz.amplifyapp.com/).
 ## Almenn virkni
 * Sækir myndir frá Google Images API miðað við leitarstreng sem notandi slær inn.
 * Birtir myndir í grind, ásamt fyrirsögn og hlekk á uppruna.
