@@ -1,0 +1,51 @@
+:root {
+  --theme: #3f479f;
+}
+
+.bordered-1 {
+  border: 1px solid black;
+}
+
+.bordered-2 {
+  border: 2px solid black;
+}
+
+.bordered-3 {
+  border: 3px solid black;
+}
+
+body {
+  font-size: 1.3em;
+  color: white;
+}
+
+.container {
+  padding-top: 20px;
+  padding-bottom: 440px;
+  text-align: center;
+}
+
+.hover:hover {
+  opacity: 0.5;
+}
+
+.spaced {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.themed {
+  color: var(--theme) !important;
+  fill: var(--theme) !important;
+}
+
+.themed-bg {
+  background-color: var(--theme) !important;
+}
+
+.page-header {
+  font-size: 5em;
+}
+
+@media only screen and (max-width: 600px) {
+}
